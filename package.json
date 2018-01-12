@@ -1,0 +1,13 @@
+{
+  "name": "compassdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rongfengliang/compassdemo.git",
+  "author": "rongfl <1141591465@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "git:add":"git add .",
+    "git:commit":"git commit -m `dddd` ",
+    "git:publish":"git push -u origin master"
+  }
+}
