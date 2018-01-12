@@ -2,13 +2,18 @@
 /// @author rongfengliang
 $font-size : 50px;
 /// @author rongfengliang
-$body-color:black;
+$body-color:red;
 $select-color: rgba(122, 157, 192, 0.467);
 /// @author rongfengliang
 /// @todo add layout to webpage
 body{
     font-size: $font-size;
     background-color: $body-color;
+    border: {
+        top:1px dashed blue;
+        right: 2px dotted rgba(122, 157, 192, 0.467);
+        left: 1px solid ;
+    }
 }
 ::selection{
     background-color: $select-color;
