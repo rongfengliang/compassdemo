@@ -6,7 +6,7 @@
   "author": "rongfl <1141591465@qq.com>",
   "license": "MIT",
   "scripts": {
-    "git:add": "git add .",
+    "git:add": "git add --all",
     "git:commit": "git commit -m `add-file` ",
     "git:publish": "git push -u origin master",
     "git": "yarn git:add && yarn git:commit",
