@@ -10,8 +10,8 @@
     "git:commit": "git commit -m `add-file` ",
     "git:publish": "git push -u origin master",
     "git": "yarn git:add && yarn git:commit",
-    "sass": "compass",
-    "start":"live-server"
+    "sass": "compass compile",
+    "start":"compass compile && live-server"
   },
   "dependencies": {
     "live-server": "^1.2.0"
