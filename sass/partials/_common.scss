@@ -4,8 +4,16 @@ $font-size : 50px;
 /// @author rongfengliang
 $body-color:red;
 $select-color: rgba(122, 157, 192, 0.467);
-/// @author rongfengliang
-/// @todo add layout to webpage
+
+/// Mixin to size an element
+/// @access public 
+/// @param {Number} $width width
+/// @param {Number} $height height
+/// @example @include demo(10px,40px)
+@mixin demo($width,$height){
+    width: $width;
+    height: $height;
+}
 body{
     font-size: $font-size;
     background-color: $body-color;
@@ -14,6 +22,7 @@ body{
         right: 2px dotted rgba(122, 157, 192, 0.467);
         left: 1px solid ;
     }
+    @include demo(100px,300px);
 }
 ::selection{
     background-color: $select-color;
