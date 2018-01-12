@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "git:add": "git add --all",
-    "git:commit": "git commit -m `add-file` ",
+    "git:commit": "git commit -m  a ",
     "git:publish": "git push -u origin master",
     "git": "yarn git:add && yarn git:commit",
     "sass": "compass compile",

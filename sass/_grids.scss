@@ -1,5 +1,21 @@
 @import "susy";
 $susy: (
-  columns: 12,
-  gutters: 1/4,
+
+   columns: 12,
+   // container:1000px,
+   global-box-sizing:border-box,
+   debug: (
+    image: hide,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  ),
+  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: false,
+    rem: true,
+  )
 );
+@include border-box-sizing;
