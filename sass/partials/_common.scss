@@ -10,7 +10,7 @@ $select-color: rgba(122, 157, 192, 0.467);
 /// @param {Number} $width width
 /// @param {Number} $height height
 /// @example @include demo(10px,40px)
-@mixin demo($width,$height){
+@mixin demo($width:300px,$height:500px){
     width: $width;
     height: $height;
 }
