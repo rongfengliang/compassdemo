@@ -11,9 +11,13 @@
     "git:publish": "git push -u origin master",
     "git": "yarn git:add && yarn git:commit",
     "sass": "compass compile",
-    "start":"compass compile && live-server"
+    "start": "compass compile && live-server",
+    "doc": "sassdoc sass/* -d doc"
   },
   "dependencies": {
     "live-server": "^1.2.0"
+  },
+  "devDependencies": {
+    "sassdoc": "^2.5.0"
   }
 }
