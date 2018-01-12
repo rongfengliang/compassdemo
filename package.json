@@ -7,10 +7,10 @@
   "license": "MIT",
   "scripts": {
     "git:add": "git add .",
-    "git:commit": "git commit -m `dddd` ",
+    "git:commit": "git commit -m `add-file` ",
     "git:publish": "git push -u origin master",
     "git": "yarn git:add && yarn git:commit",
-    "start": "live-server"
+    "start": "compass && live-server"
   },
   "dependencies": {
     "live-server": "^1.2.0"
