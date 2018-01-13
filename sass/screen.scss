@@ -2,8 +2,13 @@
 @import "partials/common";
 @import "grids";
 @import "partials/layout";
+@import "../node_modules/sass-mediaqueries/media-queries";
 .wrap {
     @include container;
+    @include mq($max-width: 1000px) {
+        font-size: 70px;
+        font-weight: bold;
+    }
     background-color: antiquewhite;
     .content {
         @include span(8);
@@ -14,8 +19,14 @@
     .appdemo {
       
     }
+    
 }
 
+@mixin MQ($large){
+
+    font-size: 70px;
+    font-weight: bold;
+}
 .social {
     /* Adds a padding of 19px to each side of the .social container */
     padding: gutter();

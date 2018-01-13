@@ -70,7 +70,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   box-sizing: border-box;
 }
 
-/* line 5, ../sass/screen.scss */
+/* line 6, ../sass/screen.scss */
 .wrap {
   max-width: 100%;
   margin-left: auto;
@@ -83,27 +83,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
   clear: both;
 }
-/* line 8, ../sass/screen.scss */
+@media only screen and (max-width: 1000px) {
+  /* line 6, ../sass/screen.scss */
+  .wrap {
+    font-size: 70px;
+    font-weight: bold;
+  }
+}
+/* line 13, ../sass/screen.scss */
 .wrap .content {
   width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
 }
-/* line 11, ../sass/screen.scss */
+/* line 16, ../sass/screen.scss */
 .wrap .siderbar {
   width: 32.20339%;
   float: right;
   margin-right: 0;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 .social {
   /* Adds a padding of 19px to each side of the .social container */
   padding: 1.69492%;
   /* Adding a clearfix because
   all children elements are floated */
 }
-/* line 24, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .social .social__list-item {
     /* Telling Susy that there are 10 items,
 and each takes up 1 row */
@@ -113,7 +120,7 @@ and each takes up 1 row */
     /* Another way to tell Susy that this is the last item in the row
 */
 }
-/* line 30, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .social .social__list-item:last-child {
   float: right;
   margin-right: 0;

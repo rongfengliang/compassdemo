@@ -1824,6 +1824,10 @@ sass-convert@^0.5.0:
     through2 "^2.0.0"
     which "^1.0.5"
 
+sass-mediaqueries@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/sass-mediaqueries/-/sass-mediaqueries-1.6.1.tgz#53fe4a3fd481d104cf6779df6f264e735826a78b"
+
 sassdoc-extras@^2.4.0:
   version "2.4.2"
   resolved "http://registry.npm.taobao.org/sassdoc-extras/download/sassdoc-extras-2.4.2.tgz#4db977792a3e88eab37827771b085dfc4bf7fe89"

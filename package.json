@@ -15,7 +15,8 @@
     "doc": "sassdoc sass/* -d doc"
   },
   "dependencies": {
-    "live-server": "^1.2.0"
+    "live-server": "^1.2.0",
+    "sass-mediaqueries": "^1.6.1"
   },
   "devDependencies": {
     "sassdoc": "^2.5.0"
