@@ -75,7 +75,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: antiquewhite;
 }
 /* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
 .wrap:after {
@@ -90,27 +89,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     font-weight: bold;
   }
 }
-/* line 13, ../sass/screen.scss */
+/* line 12, ../sass/screen.scss */
 .wrap .content {
   width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
 }
-/* line 16, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 .wrap .siderbar {
   width: 32.20339%;
   float: right;
   margin-right: 0;
 }
+/* line 18, ../sass/screen.scss */
+.wrap .demoapp {
+  background-color: blueviolet;
+  border-radius: 30px;
+}
 
-/* line 30, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .social {
   /* Adds a padding of 19px to each side of the .social container */
   padding: 1.69492%;
   /* Adding a clearfix because
   all children elements are floated */
 }
-/* line 35, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .social .social__list-item {
     /* Telling Susy that there are 10 items,
 and each takes up 1 row */
@@ -120,7 +124,7 @@ and each takes up 1 row */
     /* Another way to tell Susy that this is the last item in the row
 */
 }
-/* line 41, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .social .social__list-item:last-child {
   float: right;
   margin-right: 0;

@@ -1,0 +1,3 @@
+@mixin demo($size:200px) {
+    @content;
+}
